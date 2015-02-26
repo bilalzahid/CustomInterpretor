@@ -66,6 +66,7 @@ public class CustomInterpreter {
                     if(chunksOfLine[1].equals("=")){
                         
                         //Check for addition
+                        
                         if(chunksOfLine[3].equals("+")  ){
                             if(isInteger(chunksOfLine[2]) && isInteger(chunksOfLine[4]) ){
                                 answer   = Integer.parseInt(chunksOfLine[2]) + Integer.parseInt(chunksOfLine[4] ) ;

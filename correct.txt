@@ -1,9 +1,7 @@
 let x = 0
 print x
 let y = 1
-let z = 9
 print y
 y = x + 1
 y = 4 + 3
-x = 1 + 2 + 1
 print y
